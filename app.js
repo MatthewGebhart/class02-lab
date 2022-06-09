@@ -16,6 +16,8 @@ let userName = prompt("Welcome to the Matt Quiz, what is your name?");
 
 let quizScore = 0;
 
+function mattQuiz(){
+
 let quizQ1 = 'Was Matt in the Army?';
 let response = prompt (quizQ1).toLowerCase();
 if (response === 'no' || response === 'n') {
@@ -114,6 +116,8 @@ while (BP > 0) {
     alert('Nope, try again. You have ' + i + ' guesses left');
     i--;
   }
-}
-
+} 
 alert('Thank you for taking the \"Matt Quiz\" ' + userName + ', you did great! and got ' + quizScore + ' out of 7 questions right!');
+}
+//below invokes the mattQuiz function.
+//mattQuiz();
