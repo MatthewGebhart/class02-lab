@@ -1,9 +1,13 @@
 body{background-color:#F5CB6A; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif; padding: 30px; margin: 10px;}
 
-h1{color:#33508F; background-color: lightgrey; text-align: center;}
+h1{color:#33508F; background-color: lightgrey; text-align: center; width:fit-content; padding: 10px; margin-left: auto; margin-right: auto; text-shadow: 1px 1px; border-radius: 10px;}
 
-h2{color:#658ADB}
+h2{color:#33508F; background-color: lightgrey; width: fit-content; text-shadow: 1px 1px; padding: 10px; border-radius: 10px;}
 
 p{font-size:larger;}
 
+.button { font-size: 20px; background-color: black; color:white; border-radius: 20px; padding: 7px; box-shadow: 0px 0px 2px 2px ;}
 
+.button:hover { background-color:#33508F;
+    transition: 0.7s;
+}
